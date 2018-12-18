@@ -2,7 +2,9 @@ version: '3'
 
 services:
   backend:
-    image: php:7-apache
+    build:
+      context: .
+      dockerfile: ./docker/php.dockerfile
     container_name: backend
     networks:
       - saw-network
