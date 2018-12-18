@@ -4,7 +4,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: ./docker/php.dockerfile
+      dockerfile: ./docker/apache.dockerfile
     container_name: backend
     networks:
       - saw-network
