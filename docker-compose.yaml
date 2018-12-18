@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+  backend:
+    image: php:7-apache
+    container_name: backend
+    networks:
+      - saw-network
+    ports:
+      - 8000:80
+    restart: always
+    volumes:
+      - ./backend:/var/www/html
+    working_dir: /var/www/html
+
+  db:
+    image: mariadb:10.3
+    container_name: db
+    environment:
+      - TZ=Europe/Lisbon
+      - MYSQL_USER=saw
+      - MYSQL_PASSWORD=saw
+      - MYSQL_DATABASE=saw
+      - MYSQL_ROOT_PASSWORD=secret
+    networks:
+      - saw-network
+    ports:
+      - 3306:3306
+    restart: always
+    volumes:
+      - db:/var/lib/mysql
+
+  pma:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: pma
+    depends_on:
+      - "db"
+    environment:
+      - MYSQL_USER=saw
+      - MYSQL_PASSWORD=saw
+      - MYSQL_ROOT_PASSWORD=secret
+    networks:
+      - saw-network
+    ports:
+      - "8001:80"
+    restart: always
+
+networks:
+  saw-network:
+    driver: bridge
+
+volumes:
+  db:
