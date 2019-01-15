@@ -64,6 +64,22 @@ services:
     volumes:
       - ./frontend:/app
 
+  frontend-build:
+    container_name: frontend_build
+    build:
+      context: .
+      dockerfile: ./docker/react-build.dockerfile
+    depends_on:
+      - "backend"
+      - "frontend"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - saw-network
+    ports:
+      - 8003:5000
+    restart: always
+
 networks:
   saw-network:
     driver: bridge
