@@ -4,8 +4,8 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 
 ## Components
 
-* [Backend](/backend) - Backend web service made in PHP.
-* [Frontend](/frontend) - Frontend made in Javascript (ReactJS).
+* [Backend](backend) - Backend web service made in PHP.
+* [Frontend](frontend) - Frontend made in Javascript (ReactJS).
 
 ## Objectives
 
