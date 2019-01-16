@@ -4,8 +4,10 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 
 ## Components
 
-* [Backend](backend) - Backend web service made in PHP.
-* [Frontend](frontend) - Frontend made in Javascript (ReactJS).
+* [Backend](/../backend) - Backend web service made in PHP.
+* [Frontend](/../frontend) - Frontend made in Javascript (ReactJS).
+
+*Detailed info about components is in their own repository.*
 
 ## Objectives
 
@@ -18,8 +20,13 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 
 ## Screenshots
 
+* **Games List - Common**
 ![Web view of Games List](sample/main_web.png)
+
+* **Games List - Mobile**
 ![Mobile view of Games List](sample/main_mobile.png)
+
+* **Users List - Mobile**
 ![Mobile view of Users List](sample/users_mobile.png)
 
 ## Live
