@@ -4,8 +4,8 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 
 ## Main Components
 
-* **[Backend](https://gitlab.com/ighour-learn/ipp/saw/backend)** - Backend web service made in PHP.
-* **[Frontend](https://gitlab.com/ighour-learn/ipp/saw/frontend)** - Frontend made in Javascript (ReactJS).
+### **[Backend](https://gitlab.com/ighour-learn/ipp/saw/backend)** - Backend web service made in PHP.
+### **[Frontend](https://gitlab.com/ighour-learn/ipp/saw/frontend)** - Frontend made in Javascript (ReactJS).
 
 *Detailed info about components is in their own repository.*
 
@@ -13,12 +13,6 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 
 * The app was created to maintain a list of games sold by users.
 * The main purpose is to avoid security problems in application, specially about validation, sanitization, unauthorized access of files and resources, password cracking etc.
-
-## Built With
-
-* [Docker](https://www.docker.com/) - Deploy applications using containers.
-* [MariaDB](https://mariadb.org/) - SQL database.
-* [phpMyAdmin](https://www.phpmyadmin.net/) - Intuitive web interface to access database.
 
 ## Screenshots
 
@@ -38,26 +32,27 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 
 Live version is not available yet.
 
-## Authors
+## Built With
 
-* **Célio Ighour** - *Owner* - [Ighour](https://github.com/ighour)
-* **Simona Alecs** - *Developer*
+* [Docker](https://www.docker.com/) - Deploy applications using containers.
+* [MariaDB](https://mariadb.org/) - SQL database.
+* [phpMyAdmin](https://www.phpmyadmin.net/) - Intuitive web interface to access database.
 
 ## Installation
 
 This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)* to run applications. If you want to install with another method, you need to configure your environment to correctly run the PHP application, connected to a SQL Database, and the JS application.
 
-1. Clone project
+### 1. Clone project
 
-* *git clone git@gitlab.com:ighour-learn/ipp/saw/trabalho.git* or *git clone https://gitlab.com/ighour-learn/ipp/saw/trabalho.git*
+* *git clone git@gitlab.com:ighour-learn/ipp/saw/trabalho.git* **or** *git clone https://gitlab.com/ighour-learn/ipp/saw/trabalho.git*
 
-2. Get Submodules (backend and frontend)
+### 2. Get Submodules (backend and frontend)
 
 * *git submodule init*
 
 * *git submodule update*
 
-3. Configure backend .env
+### 3. Configure backend .env
 
 * **HEADER_ACCESS_CONTROL_ALLOW_ORIGIN** - Allowed request origins. Here will be the address of frontend application (e.g. http://localhost:8001). Or you can just put * to allow all origins.
 
@@ -75,7 +70,7 @@ This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)
 * **MAILER_SECURE** - Mailer secure type (e.g. tls).
 * **MAILER_PORT** - Mailer port (e.g. 587).
 
-4. Configure frontend .env
+### 4. Configure frontend .env
 
 * **REACT_APP_API_URL** - Address of backend with slash at end (e.g. http://localhost:80/).
 * **REACT_APP_API_DEFAULT_AVATAR_PATH** - Relative path of default user avatars on backend (e.g. img/avatar.png).
@@ -83,21 +78,21 @@ This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)
 
 *If you change default path of images, you need to put desired path into backend folder (/app/public/img...).*
 
-5. Install dependencies
+### 5. Install dependencies
 
 * For backend, you need to install dependencies with composer. Use *composer install -o* on backend folder (or run the file *docker-composer.sh* to open a container with composer and run the same command inside it).
 
 * For frontend, you need to install dependencies with npm (or similar). Use *npm install* on frontend folder (or run the file *docker-npm.sh* to open a container with node and run the same command inside it).
 
-6. Build project with Docker-Compose
+### 6. Build project with Docker-Compose
 
 * *docker-compose build*
 
-7. Deploy with Docker-Compose
+### 7. Deploy with Docker-Compose
 
 * *docker-compose up*
 
-8. Default ports for applications
+### 8. Default ports for applications
 
 * **Backend** (PHP): 8000
 
@@ -106,3 +101,8 @@ This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)
 * **Frontend** (ReactJS): 8002
 
 * **Frontend** (Builded ReactJS): 8003
+
+## Authors
+
+* **Célio Ighour** - *Owner* - [Ighour](https://github.com/ighour)
+* **Simona Alecs** - *Developer*
