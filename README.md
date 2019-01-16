@@ -38,6 +38,12 @@ Live version is not available yet.
 * [MariaDB](https://mariadb.org/) - SQL database.
 * [phpMyAdmin](https://www.phpmyadmin.net/) - Intuitive web interface to access database.
 
+## Modelling
+
+* **Application Architecture**
+
+![Application Architecture](https://gitlab.com/ighour-learn/ipp/saw/trabalho/uploads/734fbe7148390d7de48afbf01cb83393/App_Arquitecture__1___1_.png)
+
 ## Installation
 
 This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)* to run applications. If you want to install with another method, you need to configure your environment to correctly run the PHP application, connected to a SQL Database, and the JS application.
