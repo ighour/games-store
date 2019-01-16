@@ -21,12 +21,15 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 ## Screenshots
 
 * **Games List - Common**
+
 ![Web view of Games List](sample/main_web.png)
 
 * **Games List - Mobile**
+
 ![Mobile view of Games List](sample/main_mobile.png)
 
 * **Users List - Mobile**
+
 ![Mobile view of Users List](sample/users_mobile.png)
 
 ## Live
