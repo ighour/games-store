@@ -4,8 +4,8 @@ Project for IPP/ESTG Class "Segurança em Aplicações Web"
 
 ## Main Components
 
-* **Backend** - Backend web service made in PHP.
-* **Frontend** - Frontend made in Javascript (ReactJS).
+* **[Backend](https://gitlab.com/ighour-learn/ipp/saw/backend)** - Backend web service made in PHP.
+* **[Frontend](https://gitlab.com/ighour-learn/ipp/saw/frontend)** - Frontend made in Javascript (ReactJS).
 
 *Detailed info about components is in their own repository.*
 
