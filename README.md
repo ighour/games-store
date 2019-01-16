@@ -90,15 +90,23 @@ This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)
 
 * For frontend, you need to install dependencies with npm (or similar). Use *npm install* on frontend folder (or run the file *docker-npm.sh* to open a container with node and run the same command inside it).
 
-### 6. Build project with Docker-Compose
+### 6. Migrate backend database
+
+* Run the *migrate.sql* file in backend/db folder on your SQL database.
+
+### 7. Run backend seeds
+
+* Run the *seed.sql* file in backend/db folder on your SQL database.
+
+### 8. Build project with Docker-Compose
 
 * *docker-compose build*
 
-### 7. Deploy with Docker-Compose
+### 9. Deploy with Docker-Compose
 
 * *docker-compose up*
 
-### 8. Default ports for applications
+### 10. Default ports for applications
 
 * **Backend** (PHP): 8000
 
