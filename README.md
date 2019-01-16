@@ -112,3 +112,7 @@ This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)
 
 * **Célio Ighour** - *Owner* - [Ighour](https://github.com/ighour)
 * **Simona Alecs** - *Developer*
+
+## Reports
+
+A full report of this project is available in portuguese [here](https://gitlab.com/ighour-learn/ipp/saw/trabalho/uploads/216334f761a6e80050bc466b2e770c12/Trabalho.pdf).
