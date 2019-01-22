@@ -123,4 +123,4 @@ This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)
 
 ## Reports
 
-A full report of this project is available in portuguese [here](https://gitlab.com/ighour-learn/ipp/saw/trabalho/uploads/216334f761a6e80050bc466b2e770c12/Trabalho.pdf).
+A full report of this project is available in portuguese [here](https://gitlab.com/ighour-learn/ipp/saw/trabalho/uploads/ba923c48478261448348fe5ab6245ac7/Trabalho__2_.pdf).
