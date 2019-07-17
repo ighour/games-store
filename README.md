@@ -42,7 +42,7 @@ Live version is not available yet.
 
 * **Application Architecture**
 
-![Application Architecture](https://gitlab.com/ighour-learn/ipp/saw/trabalho/uploads/734fbe7148390d7de48afbf01cb83393/App_Arquitecture__1___1_.png)
+![Application Architecture](/uploads/734fbe7148390d7de48afbf01cb83393/App_Arquitecture__1___1_.png)
 
 ## Installation
 
@@ -118,9 +118,9 @@ This installation guide uses *[Docker-Compose](https://docs.docker.com/compose/)
 
 ## Authors
 
-* **Célio Ighour** - *Owner* - [My Portfolio](https://ighour.talosdev.com) | [Github](https://github.com/ighour) | [Gitlab](https://gitlab.com/ighour) | [LinkedIn](https://www.linkedin.com/in/c%C3%A9lio-ighour-de-castro-rodrigues-0a278a13a/) | [StackOverflow](https://stackexchange.com/users/10652400/ighour)
+* **Célio Ighour** - *Owner* - [My Portfolio](https://www.ighour.com) | [Github](https://github.com/ighour) | [Gitlab](https://gitlab.com/ighour) | [LinkedIn](https://www.linkedin.com/in/c%C3%A9lio-ighour-de-castro-rodrigues-0a278a13a/) | [StackOverflow](https://stackexchange.com/users/10652400/ighour)
 * **Simona Alecs** - *Developer*
 
 ## Reports
 
-A full report of this project is available in portuguese [here](https://gitlab.com/ighour-learn/ipp/saw/trabalho/uploads/ba923c48478261448348fe5ab6245ac7/Trabalho__2_.pdf).
+A full report of this project is available in portuguese [here](/uploads/ba923c48478261448348fe5ab6245ac7/Trabalho__2_.pdf).
