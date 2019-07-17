@@ -1,6 +1,8 @@
 [submodule "backend"]
 	path = backend
 	url = git@gitlab.com:ighour-learn/ipp/saw/backend.git
+	branch = master
 [submodule "frontend"]
 	path = frontend
 	url = git@gitlab.com:ighour-learn/ipp/saw/frontend.git
+	branch = master
