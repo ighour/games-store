@@ -1,8 +1,8 @@
 [submodule "backend"]
 	path = backend
-	url = git@gitlab.com:ighour-learn/ipp/saw/backend.git
+	url = https://github.com/ighour/games-store-be
 	branch = master
 [submodule "frontend"]
 	path = frontend
-	url = git@gitlab.com:ighour-learn/ipp/saw/frontend.git
+	url = https://github.com/ighour/games-store-fe
 	branch = master
